@@ -11,7 +11,7 @@ public class HomeWorkString {
         //Задание 2
         System.out.println("Задание 2");
         String fullNameUpper = fullName.toUpperCase();
-        System.out.println("ФИО сотрудника — " + fullNameUpper);
+        System.out.println("Данные ФИО сотрудника для заполнения отчета —" + fullNameUpper);
         System.out.println();
         //Задание 3
         System.out.println("Задание 3");
@@ -20,6 +20,6 @@ public class HomeWorkString {
         lastName = "Иванов";
         fullName = lastName + " " + firstName + " " + middleName;
         fullName = fullName.replace("ё", "е");
-        System.out.println("ФИО сотрудника — " + fullName);
+        System.out.println("Данные ФИО сотрудника —" + fullName);
     }
 }
